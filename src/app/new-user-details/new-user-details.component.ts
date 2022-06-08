@@ -11,8 +11,11 @@ export class NewUserDetailsComponent implements OnInit {
   constructor(private  list:DataService) { }
 
   ngOnInit(): void {
-    //this.userName = this.list.getList();
+    this.userName = this.list.getList();
     console.log(2);
+     console.log(2);
+     console.log(abcd);
+    console.log("abcd");
   }
 
 }
