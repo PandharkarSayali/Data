@@ -16,13 +16,15 @@ export class NewUserDetailsComponent implements OnInit {
      console.log(2);
      console.log(abcd);
     console.log("abcd");
-    console.log("abcd");
-     console.log(2);
-     console.log(2);
+    console.log("abcd")
      console.log(abcd);
      console.log("abcd");
      console.log(2);
      console.log(2);
+    console.log(abcd);
+    console.log("abcd");
+    console.log("abcd")
+     console.log(abcd);
   
   }
 
