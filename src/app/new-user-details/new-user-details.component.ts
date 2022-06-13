@@ -17,6 +17,8 @@ export class NewUserDetailsComponent implements OnInit {
      console.log(abcd);
     console.log("abcd");
     console.log("abcd")
+       console.log("abcd");
+    console.log("abcd")
      
   
   }
