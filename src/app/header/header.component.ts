@@ -19,9 +19,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     
-<<<<<<< HEAD
     console.log("abcd")
-=======
->>>>>>> 05b83dedffb2aeda8dc35bbcee75f555f0628f3c
   }
 }
