@@ -15,7 +15,7 @@ export class NewUserDetailsComponent implements OnInit {
    
      console.log(2);
      
-    
+    console.log(2);
       
   }
 
