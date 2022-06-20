@@ -13,7 +13,7 @@ export class NewUserDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.userName = this.list.getList();
    console.log("abc");
-   
+     console.log("abc");
   }
 
 }
