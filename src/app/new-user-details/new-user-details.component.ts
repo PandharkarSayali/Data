@@ -11,7 +11,7 @@ export class NewUserDetailsComponent implements OnInit {
   constructor(private  list:DataService) { }
 
   ngOnInit(): void {
-    //this.userName = this.list.getList();
+    this.userName = this.list.getList();
   }
 
 }
