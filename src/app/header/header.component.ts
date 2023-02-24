@@ -18,5 +18,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log("abcd")
+  
   }
 }
