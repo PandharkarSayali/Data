@@ -10,8 +10,8 @@ export class ProfilepictureComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
-console.log('1');
+  console.log("abc");
+    console.log("abc");
   }
 
 }
