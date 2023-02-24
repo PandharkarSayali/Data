@@ -27,25 +27,8 @@ export class UserlistComponent implements OnInit {
   
   ngOnInit(): void {
     //this.getAPIList();
-   // console.log("response", this.data);
-  }
-    username:"";
-    email:"";
-    firstname:"";
-    lastname:"";
-    role:"";
-    actions:null;
-    submitted=false;
 
-  onSubmit(form:NgForm){
-    console.log("response", form);
-    this.submitted=true;
-    this.username=form.value.Username;
-    this.email=form.value.Email;
-    this.firstname=form.value.FirstName;
-    this.lastname=form.value.Lastname;
-    this.role=form.value.Roles;
-    // this.UserName=Data.UserName;
+
   }
   
   getAPIList(){
@@ -53,6 +36,16 @@ export class UserlistComponent implements OnInit {
       response => {
         console.log(response);
         this.data = response;
+
       });
   }  
+
+        console.log(response);
+        this.data = response;
+      }
+    );
+  }
+
+   
+
 }
