@@ -9,7 +9,6 @@ import { DataService } from '../data.service';
 export class NewUserDetailsComponent implements OnInit {
 
   constructor(private  list:DataService) { }
-
   ngOnInit(): void {
 
     //this.userName = this.list.getList();
@@ -18,7 +17,13 @@ export class NewUserDetailsComponent implements OnInit {
 
 
     this.userName = this.list.getList();
-    console.log(2);
+
+
+   console.log("abc");
+
+ 
+ //console.log(2);
+
 
   }
 
