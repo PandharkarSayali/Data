@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 export class Data{
   constructor(
@@ -8,11 +9,9 @@ export class Data{
        public FirstName:string,
        public LastName:string,
        public Role:string, 
-       public Actions:Number,
+       public Actions:Number=null,
        public id:Number )
-       {
-
-       }
+       {}
 }
 
 
@@ -23,23 +22,33 @@ export class Data{
 })
 export class UserlistComponent implements OnInit {
   data:Data[];
-
+  form: any;
+   
   constructor(private http:HttpClient) { }
-
+  
   ngOnInit(): void {
     //this.getAPIList();
-    
-  }
 
+
+  }
   
   getAPIList(){
     this.http.get<any>('/api/users').subscribe(
       response => {
         console.log(response);
         this.data = response;
+
+
+      });
+  }  
+
+        console.log(response);
+        this.data = response;
+
       }
     );
   }
 
    
+
 }
