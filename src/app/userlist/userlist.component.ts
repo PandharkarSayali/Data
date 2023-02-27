@@ -38,11 +38,13 @@ export class UserlistComponent implements OnInit {
         console.log(response);
         this.data = response;
 
+
       });
   }  
 
         console.log(response);
         this.data = response;
+
       }
     );
   }
