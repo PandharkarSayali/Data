@@ -7,6 +7,7 @@ import {FormBuilder, FormGroup} from '@angular/forms';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
   options: FormGroup;
   constructor(fb: FormBuilder) {
     this.options = fb.group({
@@ -19,8 +20,7 @@ export class HeaderComponent implements OnInit {
   
   ngOnInit(): void {
     console.log("abc");
-    console.log("abc");
- console.log("abc");
+
 
   }
 }
