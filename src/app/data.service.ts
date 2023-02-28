@@ -15,7 +15,3 @@ export class DataService {
     return this.http.post('http://localhost:8080/users', {'firstName' : 'Code', 'lastName' : 'Handbook','Username':'Code handbook'}) 
   }*/
 }
-
-
-
-
